@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="뷰티편집샵">
+    <meta name="keywords" content="뷰티,뷰티편집샵,화장품,코스메틱">
+    <meta name="author" content="hanakim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>픽티 : 고르고 담으세요</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <script src="https://kit.fontawesome.com/24b13238d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header_event">
+            <div class="container">
+                신규 회원 가입 시 전 제품 무료배송 + 5% 할인
+            </div><!-- //.container -->
+        </div><!-- //.header_event -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="./imgs/logo.png" alt="픽티">
+                </div><!-- //.logo -->
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="">코스메틱</a>
+                            <div class="sub_wrap">
+                                <ul class="sub">
+                                    <li><a href="">베이스</a></li>
+                                    <li><a href="">아이</a></li>
+                                    <li><a href="">립</a></li>
+                                </ul><!-- //.sub -->
+                            </div><!-- //.sub_wrap -->
+                        </li>
+                        <li><a href="">바디케어</a>
+                            <div class="sub_wrap">
+                                <ul class="sub">
+                                    <li><a href="">샤워</a></li>
+                                    <li><a href="">크림</a></li>
+                                    <li><a href="">핸드/풋</a></li>
+                                </ul><!-- //.sub -->
+                            </div><!-- //.sub_wrap -->
+                        </li>
+                        <li><a href="">헤어케어</a>
+                            <div class="sub_wrap">
+                                <ul class="sub">
+                                    <li><a href="">샴푸/린스</a></li>
+                                    <li><a href="">케어용품</a></li>
+                                    <li><a href="">스타일링</a></li>
+                                </ul><!-- //.sub -->
+                            </div><!-- //.sub_wrap -->
+                        </li>
+                        <li><a href="">향수/네일</a>
+                            <div class="sub_wrap">
+                                <ul class="sub">
+                                    <li><a href="">여성향수</a></li>
+                                    <li><a href="">남성향수</a></li>
+                                    <li><a href="">네일</a></li>
+                                </ul><!-- //.sub -->
+                            </div><!-- //.sub_wrap -->
+                        </li>
+                        <li><a href="">헬스푸드</a>
+                            <div class="sub_wrap">
+                                <ul class="sub">
+                                    <li><a href="">스낵</a></li>
+                                    <li><a href="">드링크</a></li>
+                                    <li><a href="">건강식품</a></li>
+                                </ul><!-- //.sub -->
+                            </div><!-- //.sub_wrap -->
+                        </li>
+                    </ul><!-- //.gnb -->
+                </nav>
+                <div class="mymenu">
+                    <ul>
+                        <li><a href="">장바구니</a></li>
+                        <li><a href="">로그인/회원가입</a></li>
+                    </ul>
+                </div><!-- //.mymenu -->
+            </div><!-- //.container -->
+            <div class="header_mid">
+                <ul class="btn_list">
+                    <li class="ham"><i class="fa-solid fa-bars"></i></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+                <h1><img src="./imgs/logo.png" alt="픽티"></h1>
+                <div class="menu_mid">
+                    <div class="mymenu_mid">
+                        <ul>
+                            <li><a href="">마이페이지</a></li>
+                            <li><a href="">로그인/회원가입</a></li>
+                        </ul>
+                    </div><!-- //.mymenu -->
+                    <ul class="gnb_mid">
+                        <li><a href="">코스메틱</a>
+
+                            <ul class="sub">
+                                <li><a href="">베이스</a></li>
+                                <li><a href="">아이</a></li>
+                                <li><a href="">립</a></li>
+                            </ul><!-- //.sub -->
+
+                        </li>
+                        <li><a href="">바디케어</a>
+
+                            <ul class="sub">
+                                <li><a href="">샤워</a></li>
+                                <li><a href="">크림</a></li>
+                                <li><a href="">핸드/풋</a></li>
+                            </ul><!-- //.sub -->
+
+                        </li>
+                        <li><a href="">헤어케어</a>
+
+                            <ul class="sub">
+                                <li><a href="">샴푸/린스</a></li>
+                                <li><a href="">케어용품</a></li>
+                                <li><a href="">스타일링</a></li>
+                            </ul><!-- //.sub -->
+
+                        </li>
+                        <li><a href="">향수/네일</a>
+
+                            <ul class="sub">
+                                <li><a href="">여성향수</a></li>
+                                <li><a href="">남성향수</a></li>
+                                <li><a href="">네일</a></li>
+                            </ul><!-- //.sub -->
+
+                        </li>
+                        <li><a href="">헬스푸드</a>
+
+                            <ul class="sub">
+                                <li><a href="">스낵</a></li>
+                                <li><a href="">드링크</a></li>
+                                <li><a href="">건강식품</a></li>
+                            </ul><!-- //.sub -->
+
+                        </li>
+                    </ul><!-- //.gnb -->
+                    <div class="logo_mid"><img src="./imgs/logo.png" alt="픽티"></div>
+                </div><!-- //.menu_mid -->
+            </div><!-- //.header_mid -->
+        </header>
+
+        <div class="main_visual">
+            <div class="ma_slide_wrap swiper">
+                <div class="main_slide swiper-wrapper">
+                    <div class="ma1 swiper-slide">
+                        <div class="ma_left">
+                            <div class="txt_box">
+                                <p>속광부터 차오르는 탄탄 물광 피부</p>
+                                <p>피부를 가장 건강하고, 아름답게, 오래도록 유지하기 위해</p>
+                                <div class="go_btn"><a href="">자세히보기</a></div>
+                            </div><!-- //.txt_box -->
+                        </div><!-- //.ma_left -->
+                        <div class="ma_right">
+                        </div><!-- //.ma_right -->
+                    </div><!-- //.ma1 -->
+                    <div class="ma2 swiper-slide">
+                        <div class="ma_left">
+                            <div class="txt_box">
+                                <p>픽티가 선택한 이 달의 브랜드</p>
+                                <p>베스트 아이템 한정특가!</p>
+                                <div class="go_btn"><a href="">자세히보기</a></div>
+                            </div><!-- //.txt_box -->
+                        </div><!-- //.ma_left -->
+                        <div class="ma_right">
+                        </div><!-- //.ma_right -->
+
+
+                    </div><!-- //.ma2 -->
+                    <div class="ma3 swiper-slide">
+                        <div class="ma_left">
+                            <div class="txt_box">
+                                <p>스킨케어 첫단계 부스터</p>
+                                <p>시카와 카페인이 만나 모공케어, 매일 어려져요</p>
+                                <div class="go_btn"><a href="">자세히보기</a></div>
+                            </div><!-- //.txt_box -->
+                        </div><!-- //.ma_left -->
+                        <div class="ma_right">
+                        </div><!-- //.ma_right -->
+                    </div><!-- //.ma3 -->
+                </div><!-- //.main_slide -->
+                <div class="slide_btnlist">
+                    <div class="swiper-button-prev"><i class="fa-solid fa-angle-left"></i></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"><i class="fa-solid fa-angle-right"></i></div>
+
+                    <div class="autoplay">
+                        <div class="auto_play">
+                            <i class="fa-solid fa-play pause"></i>
+                        </div><!-- //.play -->
+
+                        <div class="auto_pause">
+                            <i class="fa-solid fa-pause play"></i>
+                        </div><!-- //.pause -->
+
+                    </div><!-- //.autoplay -->
+
+                </div><!-- //.slide_btnlist -->
+
+
+            </div><!-- //.ma_slide_wrap -->
+        </div><!-- //.main_visual -->
+
+        <main>
+            <div class="prd_area">
+                <div class="product swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <picture>
+                                    <source srcset="" media="">
+                                    <img src="./imgs/prod01.jpg" alt="화장품 이미지" />
+                                </picture>
+                                <p>한란 인리치드 크림 50ml</p>
+                            </a>
+                        </li>
+                        <li class="txt swiper-slide">
+                            <div class="txt_area">
+                                <a href="">
+                                    <p>비타민 플러스</p>
+                                    <p>/ 복잡한 피부를 위한 집중 케어 /</p>
+                                    <p>추운 계절에는 낮은 습도와 바람에 노출되어 피부의 수분 손실이 증가합니다. 섬세한 피부 표면을 보호하는 데 도움이 되는 스킨 케어 제품을
+                                        선택하세요.
+                                    </p>
+                                    <div class="go_btn"><a href="">바로가기</a></div>
+                                </a>
+                            </div><!-- //.txt_area -->
+
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a href="">
+                                <picture>
+                                    <source srcset="" media="">
+                                    <img src="./imgs/prod02.jpg" alt="화장품 이미지" />
+                                </picture>
+                                <p>퍼펙트 9 인텐시브 크림 60ml</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide pick">
+                            <a href="">
+                                <picture>
+                                    <source srcset="" media="">
+                                    <img src="./imgs/prod03.jpg" alt="화장품 이미지" />
+                                </picture>
+                                <p>비타민 플러스 새럼 30ml</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <picture>
+                                    <source srcset="" media="">
+                                    <img src="./imgs/prod04.jpg" alt="화장품 이미지" />
+                                </picture>
+                                <p>그린티 히알루론산 스킨 170ml</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide pick">
+                            <a href="">
+                                <picture>
+                                    <source srcset="" media="">
+                                    <img src="./imgs/prod05.jpg" alt="화장품 이미지" />
+                                </picture>
+                                <p>그린티 히알루론산 스킨케어 세트</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-scrollbar"></div>
+                </div><!-- //.product -->
+            </div><!-- //.prd_area -->
+
+
+            <article class="youtube">
+                <div class="container">
+                    <h2><a href="#">PICKTY x YouTube<span>더보기<i class="fa-solid fa-chevron-right"></i></span></a></h2>
+                    <div class="contents">
+                        <div class="left">
+                            <div class="left_inner">
+                                <p>2024년 뷰티 트랜드</p>
+                                <p>올해 모든 여성들이 꼭 알아야 할 것들 총정리 이것만은 꼭 알아두세요</p>
+                                <div class="ytb_goods">
+                                    <picture>
+                                        <img src="./imgs/ytb01.png" alt="화장품 이미지">
+                                    </picture>
+
+                                    <p>비타민 새럼 30ml</p>
+                                </div><!-- //.ytb_goods -->
+                                <div class="go_btn"><a href="">제품보기</a></div>
+                            </div><!-- //.left_inner -->
+
+
+                        </div><!-- //.left -->
+                        <div class="right">
+                            <div class="vd">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/OXE90WvkRr0?si=Gae4yYxlYQXtWpIq&amp;controls=0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div><!-- //.vd -->
+                        </div><!-- //.right -->
+                    </div><!-- //.contents -->
+                </div><!-- //.container -->
+            </article><!-- //.youtube -->
+            <article class="event">
+                <div class="container">
+                    <h2><a href="#">Hot Event<span>더보기<i class="fa-solid fa-chevron-right"></i></span></a></h2>
+                    <div class="contents">
+                        <div class="ev_banner">
+                            <div class="ev_txt">
+                                <a href="#">
+                                <p>#오늘도 촉촉하게</p>
+                                <p>건강하게 빛나고 힘있게 채우는 픽티 시그니처 케어</p>
+                                </a>
+                            </div><!-- //.ev_txt -->
+                        </div>
+                        <div class="ev_banner">
+                            <div class="ev_txt">
+                                <a href="#">
+                                <p>#언제나 화사하게</p>
+                                <p>카페인샷으로 쫀쫀하게 끌올!
+                                    
+                                    집에서도 홈리프팅 관리하세요</p>
+                                </a>
+                            </div><!-- //.ev_txt -->
+                        </div>
+                        <div class="ev_banner">
+                            <div class="ev_txt">
+                                <a href="#">
+                                <p>#걱정없이 굿나잇</p>
+                                <p>알란토컴플렉스 함유 3시간 더 푹잔듯한 숙면피부를 경험해보세요!</p>
+                                </a>
+                            </div><!-- //.ev_txt -->
+                        </div>
+                    </div><!-- //.contents -->
+                </div><!-- //.container -->
+            </article><!-- //.event -->
+
+            <article class="mid_full">
+
+            </article><!-- //.mid_full -->
+
+            <article class="brand">
+                <div class="container">
+                    <h2><a href="#">오늘의 brand<span>더보기<i class="fa-solid fa-chevron-right"></i></span></a></h2>
+                    <div class="contents">
+                        <ul class="brand_list">
+                            <li class="ab on">이니스프리</li>
+                            <li class="is">이솝</li>
+                            <li class="ip">아이오페</li>
+                        </ul><!-- //.brand_list -->
+
+                        <section class="brand_tab ab on">
+                            <div class="sub_brand">
+                                <ul>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub01.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">레티놀 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub02.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">레티놀 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //.sub_brand -->
+                            <div class="main_brand">
+                                <p>이니스프리</p>
+                                <p>무한한 자연의 힘을 담은 다채로운 식물과
+                                    생명력 가득한 토양을 품은 대지,
+                                    그리고 미지의 에너지로 가득한 청록의 바다로 어서오세요.</p>
+                            </div><!-- //.main_brand -->
+                        </section><!-- //.brand_tab -->
+
+                        <section class="brand_tab is">
+                            <div class="sub_brand">
+                                <ul>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub03.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">비타민 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub04.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">비타민 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //.sub_brand -->
+                            <div class="main_brand">
+                                <p>이솝</p>
+                                <p>이솝은 비콥 인증을 획득한 브랜드이며, PETA로부터 비건 인증을 받은 브랜드입니다.</p>
+                            </div><!-- //.main_brand -->
+                        </section><!-- //.brand_tab -->
+
+                        <section class="brand_tab ip">
+                            <div class="sub_brand">
+                                <ul>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub05.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">콜라겐 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                    <li><a href="">
+                                            <div class="sub_img">
+                                                <img src="./imgs/brand_sub06.jpg" alt="화장품 이미지">
+                                            </div>
+                                            <div class="sub_txt">
+                                                <div class="price"><span>14%<span
+                                                            class="sale">99,990원</span></span>70,970원</div>
+                                                <div class="tit">콜라겐 슈퍼 바운스 세럼 50ml</div>
+                                                <div class="rate">4.9&#40;999&#41;</div>
+                                            </div><!-- //.sub_txt -->
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- //.sub_brand -->
+                            <div class="main_brand">
+                                <p>아이오페</p>
+                                <p>Bio Science 근간의 효능 성분 ‘Bio Origin’ 과
+                                    전달기술 ‘Bio Tech’ 연구를 통해 ​
+                                    확실하게 검증한 고효능 솔루션을 제공합니다.​</p>
+                            </div><!-- //.main_brand -->
+                            </div><!-- //.main_brand -->
+                        </section><!-- //.brand_tab -->
+
+                    </div><!-- //.contents -->
+                </div><!-- //.container -->
+            </article><!-- //.brand -->
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="f_top">
+                    <ul>
+                        <li><a href="">회사소개</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용안내</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                </div><!-- //.f_top -->
+                <div class="f_bottom">
+                    <div class="logo">
+                        <img src="./imgs/logo_g.png" alt="화장품 이미지">
+                    </div><!-- //.logo -->
+                    <div class="cs">
+                        <h3>CS CENTER</h3>
+                        <div class="txt01">070.123.4567</div>
+                        <div class="txt02">email<span>pickty@pickty.co.kr</span></div>
+                        <div class="txt02">평일<span>9:30 ~ 18:00</span></div>
+                        <div class="txt02">점심시간<span>13:00 ~ 14:00</span></div>
+                        <div class="txt02">토/일 공휴일<span>1:1게시판 문의</span></div>
+                    </div><!-- //.cs -->
+                    <div class="info">
+                        <h3>COMPANY INFO</h3>
+                        <div class="txt02">주식회사 픽티 | 대표이사 김픽티</div>
+                        <div class="txt02">사업자등록번호 123-45-678910 | 통신판매업신고 123-서울강남-78910</div>
+                        <div class="txt02">주소 (01234) 서울픽티시 픽티구 픽티로 567, 89층(픽티동, 픽티)</div>
+                        <div class="txt02">고객님의 안전거래를 위해 현금결제시 신한은행과 채무지급보증계약을 체결하여 안전거래를 보장하고 있습니다.</div>
+                        <a href="#">서비스 가입사실 확인&gt;</a>
+                    </div><!-- //.info -->
+                </div><!-- //.f_bottom -->
+                <div class="copy_sns">
+                    <div class="copy">Copyright ⓒ 김하나. All Rights Reserved.</div>
+                    <div class="sns">
+                        <ul>
+                            <li>pickty SNS</li>
+                            <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-comment"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- //.copy_sns -->
+            </div><!-- //.container -->
+        </footer>
+    </div><!-- //.wrapper -->
+</body>
+
+</html>
